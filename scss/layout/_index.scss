@@ -1,0 +1,43 @@
+.title{
+   h1{
+    font-size: 18px;
+    padding: 30px;
+    color: #fff;
+   } 
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+  
+}
+.nav__ul {
+    display: flex;
+    justify-content: flex-end !important;
+    margin: 0;
+    padding: 0;
+}
+.nav__li{
+    padding: 30px;
+    list-style-type: none;
+    color: #fff;
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+.end {
+    display: flex;
+    justify-content: flex-end;
+}
+.carousel-item {
+     img{
+
+        max-width:  100%;
+        height: auto;
+        object-fit: cover;
+     }
+}
+.d-none {
+    display: block !important;
+}
