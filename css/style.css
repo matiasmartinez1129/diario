@@ -100,5 +100,14 @@
     max-width: 100% !important;
   }
 }
+@media only screen and (max-width: 386px) {
+  .carousel-caption {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .carousel-caption h5 {
+    margin-bottom: 0;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
