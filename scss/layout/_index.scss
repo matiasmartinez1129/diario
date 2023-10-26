@@ -41,3 +41,43 @@
 .d-none {
     display: block !important;
 }
+.bg-color {
+    background-color: rgb(34, 183, 241);
+}
+.bienvenidos {
+    padding: 30px;
+    h2 {
+        text-align: center;
+    }
+    
+}
+.text-color {
+    color: #000;
+    
+}
+.presentacion {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 350px;
+        height: 500px;
+        object-fit: cover;
+        border: 7px solid rgb(34, 183, 241);
+    }
+    h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 30px;
+    
+    }
+}
+.texto {
+    padding: 20px;
+    width: 100%;
+
+}

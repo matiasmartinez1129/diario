@@ -71,3 +71,28 @@
     }
 
 }
+@media only screen and (max-width: 442px){
+
+    .bienvenidos {
+        h2 {
+            
+        }
+    }
+
+}
+@media only screen and (max-width: 500px){
+    .bienvenidos {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .presentacion {
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
